@@ -1,13 +1,13 @@
 {
   "name": "function-inspector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "function inspector",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "bindings": "~1.1.0"
+    "bindings": "~1.2.1"
   },
   "devDependencies": {
     "tap": "~0.3.1"
@@ -24,7 +24,10 @@
     "inspect",
     "function"
   ],
-  "author": "Tokuhiro Matsuno",
+  "author": { "name": "Tokuhiro Matsuno" },
+  "contributors": [
+    { "name": "Michael Heyse" }
+  ],
   "license": "BSD",
   "gypfile": true
 }

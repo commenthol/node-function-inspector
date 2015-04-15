@@ -5,7 +5,7 @@ test(function (t) {
     var res = inspector.inspect(inspector.inspect);
 
     t.equal(res.File, undefined);
-    t.equal(res.Name, '');
+    t.equal(res.Name, 'inspect');
     t.equal(res.InferredName, '');
     t.equal(res.LineNumber, -1);
     t.equal(res.ColumnNumber, -1);

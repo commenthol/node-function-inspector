@@ -1,6 +1,8 @@
 node-function-inspector
 =======================
 
+Updated for node 0.12.x.
+
 Inspect your function.
 
 This module is same as UNIVERSAL::which in perl5.
