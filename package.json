@@ -1,8 +1,13 @@
 {
   "name": "function-inspector",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "function inspector",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "engine-strict": true,
+  "engineStrict": true,
   "directories": {
     "test": "test"
   },
